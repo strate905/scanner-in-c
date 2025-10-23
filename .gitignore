@@ -1,0 +1,57 @@
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.exe
+
+# Compiler and linker files
+*.d
+*.map
+*.lst
+
+# Debug files
+*.gdb
+*.dSYM/
+core
+vgcore.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Testing artifacts
+*.gcda
+*.gcno
+*.gcov
+coverage/
+
+# Valgrind output
+vgcore.*
+massif.out.*
+callgrind.out.*
+
+# System and temporary files
+.tmp/
+*.tmp
+*.bak
+*.log
+
+# Never commit scan results or target lists
+*.scan
+results/
+targets/
+scan_*.txt
+scan_*.json
+scan_*.md
+
+# Configuration overrides
+config.local
+
+# Agent and AI assistant files
+AGENTS.md
+CLAUDE.md
